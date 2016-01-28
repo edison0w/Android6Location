@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.edison.locationrequestsingleupdate.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Actualizaciones via GPS"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar"
+        android:onClick="onclick"/>
+
+    <TextView
+        android:id="@+id/txtLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="latitud"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"/>
+
+    <TextView
+        android:id="@+id/txtLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="longitud"
+        android:textSize="18sp"/>
+
+</LinearLayout>
